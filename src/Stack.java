@@ -72,5 +72,9 @@ class TestStack {
     stack.push(4);
     stack.push(5);
     System.out.println(stack);
+    stack.pop();
+    stack.pop();
+    stack.pop();
+    System.out.println(stack);
   }
 }
