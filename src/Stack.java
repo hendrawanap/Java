@@ -30,9 +30,9 @@ public class Stack<T> {
 
   public void push(T data) {
     if (isEmpty())
-      top = new Node2<T>(data);
+      top = new Node2<>(data);
     else {
-      Node2<T> input = new Node2<T>(data);
+      Node2<T> input = new Node2<>(data);
       top.setNext(input);
       input.setPrev(top);
       top = input;
