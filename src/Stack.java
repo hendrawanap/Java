@@ -81,5 +81,9 @@ class TestStack {
     stack.push(8);
     stack.push(9);
     System.out.println(stack);
+    stack.push(10);
+    stack.push(11);
+    stack.push(12);
+    System.out.println(stack);
   }
 }
